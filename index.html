@@ -11,7 +11,7 @@
       <h1>Temperature Converter</h1>
       <form onsubmit="return converter()">
         <section>
-          <label for="temp">Enter the Temperature:</label><br /><br />
+          <label for="temp">Enter the Temperature(Celsius):</label><br /><br />
           <input type="number" name="temp" id="temp" />
           <p id="temperature_type"></p>
         </section>
@@ -20,6 +20,7 @@
           <select name="temptype" id="temptype">
             <option value="celsius">Celsius</option>
             <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
           </select>
         </section>
         <br />
